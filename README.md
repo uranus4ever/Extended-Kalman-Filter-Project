@@ -1,12 +1,16 @@
-# Extended Kalman Filter Project Starter Code
-Self-Driving Car Engineer Nanodegree Program
+# Extended Kalman Filter Project
 
 [Uncompleted... To be continued]
+
+[//]: # (Image References)
+
+[image1]: ./ekf_example.png "example"
 
 In this project I will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
 
 Here is the main protcol that main.cpp uses for uWebSocketIO in communicating with the simulator.
 
+![alt text][image1]
 
 INPUT: values provided by the simulator to the c++ program
 
