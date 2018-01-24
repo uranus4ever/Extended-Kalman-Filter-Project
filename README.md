@@ -3,8 +3,6 @@
 ### Objective
 Utilize sensor data from both LIDAR and RADAR measurements for object (e.g. pedestrian, vehicles, bicycle, or other moving objects) tracking with the Extended Kalman Filter.
 
----
-
 
 ## Instruction
 ### 1. Dependencies & Environment
@@ -28,14 +26,14 @@ Utilize sensor data from both LIDAR and RADAR measurements for object (e.g. pede
 ### 3. How to run the code
 
 1. Clone this repo.
-2. Download the Udacity Term 2 [simulator](https://github.com/udacity/self-driving-car-sim/releases/tag/v1.0).
+2. Download the Udacity Term-2 [simulator](https://github.com/udacity/self-driving-car-sim/releases/tag/v1.0).
 3. Make a build directory: `mkdir build && cd build`
 4. Compile: `cmake .. && make` 
    * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
 5. Run the command: `./ExtendedKF`.
 6. Run the simulator.
 
----
+
 ## Result
 
 Threshold: RMSE <= [0.11, 0.11, 0.52, 0.52] 
@@ -51,7 +49,6 @@ Accuracy - RMSE: [0.0726, 0.0967, 0.4579, 0.4966]
 
 ![dataset2][img2]
 
----
 
 ## Knowledge Background
 
@@ -111,7 +108,7 @@ The LIDAR will produce 3D measurement px,py,pz. But for the case of driving on t
 [//]: # (Image References)
 [img1]: ./extra/dataset1.PNG
 [img2]: ./extra/dataset2.PNG
-[img3]: ./extra/ekf_flow.png
+[img3]: ./extra/ekf_flow.jpg
 [img4]: ./extra/ekf_vs_kf.jpg
 [img5]: ./extra/lidar.jpg
 [img6]: ./extra/radar.jpg
