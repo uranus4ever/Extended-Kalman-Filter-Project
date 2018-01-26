@@ -50,6 +50,11 @@ Accuracy - RMSE: [0.0726, 0.0967, 0.4579, 0.4966]
 ![dataset2][img2]
 
 
+_Note:_
+Red Circle - LIDAR measurements
+Blue Circle - RADAR measurements
+Green triangle - Estimated location
+
 ## Knowledge Background
 
 ### 1. How does LIDAR measurement look like
